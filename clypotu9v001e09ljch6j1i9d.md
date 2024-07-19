@@ -121,7 +121,7 @@ Now select the instance you have created and click on connect
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721206872432/11eacfd8-bdc8-4ac6-a666-ff13c983cc7e.png align="center")
 
-Now go to Ec2 instance connect, and click on Connect  
+Now go to Ec2 instance connect, and click on Connect
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721209662499/a95ee729-1fbf-4efd-9cbe-14fa2cee550d.png align="center")
 
@@ -130,8 +130,8 @@ You may encounter an error as below.
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721209728087/56b8aec6-1c1a-454b-b8ab-6eab89e2e0f0.png align="center")
 
 This is due to the failure to set the SSH inbound rule  
-`How to fix: error Failed to connect to your instance   Error establishing SSH connection to your instance. Try again later.`  
-  
+`How to fix: error Failed to connect to your instance Error establishing SSH connection to your instance. Try again later.`
+
 Failure to set the SSH inbound rule refers to not properly configuring the security group rules for an EC2 instance to allow SSH (Secure Shell) access. This rule is crucial because it determines who can remotely connect to your instance over the internet.
 
 ### What Happens When SSH Inbound Rule is Not Set
@@ -175,8 +175,8 @@ Failure to set the SSH inbound rule refers to not properly configuring the secur
 4. **Source**: `203.0.113.0/24` (replace with your IP range)
     
 
-By setting this rule, you ensure that only the specified IP addresses can SSH into your instance, enhancing both accessibility and security.  
-  
+By setting this rule, you ensure that only the specified IP addresses can SSH into your instance, enhancing both accessibility and security.
+
 **<mark>Let me show you step by step:</mark>**  
 Go to instances and go to security as shown below
 
@@ -218,4 +218,4 @@ type `$more /etc/os-release`
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721211124356/72fdb8db-589b-460d-8228-e7cebffbe031.png align="center")
 
-Hope you learned something new ticket, follow my page for more such existing learning journeys!
+Hope you learned something new today !
